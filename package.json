@@ -1,0 +1,25 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass sass/main.scss css/style.css -w",
+    "run-server": "live-server",
+    "start": "npm-run-all run-server compile-sass "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuco5/natours.git"
+  },
+  "author": "Tudor Comparan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuco5/natours/issues"
+  },
+  "homepage": "https://github.com/tuco5/natours#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.7"
+  }
+}
